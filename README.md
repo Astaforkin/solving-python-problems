@@ -3,4 +3,4 @@
 - leetcode
 - pythonworld
 - stepik
-и др.
+- прочие
