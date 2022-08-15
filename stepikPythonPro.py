@@ -78,7 +78,7 @@ def task6():
 def task7():
     num = input()
     for i in range(len(num) - 3, 0, -3):
-    num = num[:i]+','+ num[i:]
+        num = num[:i]+','+ num[i:]
     print(num)
 
 
@@ -93,4 +93,4 @@ def task7():
 
 
 if __name__ == "__main__":
-    task5()
+    task7()
