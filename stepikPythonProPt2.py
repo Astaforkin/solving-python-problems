@@ -10,14 +10,14 @@ def task1_2():
     a, b, c, d = 0,0,0,0 
     for _ in range(amount_points):
         x,y = map(int,input().split()) 
-    if x > 0 and y > 0:
-        a += 1
-    elif x > 0 and y < 0:
-        b += 1
-    elif x < 0 and y < 0:
-        c += 1
-    elif x < 0 and y > 0:
-        d += 1
+        if x > 0 and y > 0:
+            a += 1
+        elif x > 0 and y < 0:
+            b += 1
+        elif x < 0 and y < 0:
+            c += 1
+        elif x < 0 and y > 0:
+            d += 1
     print('Первая четверть:', a)
     print('Вторая четверть:', d)
     print('Третья четверть:', c)
